@@ -1,6 +1,9 @@
 ## GUI wallet for Pixel.
 
 
+NOT READY FOR COMPILING YET!!!!!!
+
+
 
 ### Features:
 
