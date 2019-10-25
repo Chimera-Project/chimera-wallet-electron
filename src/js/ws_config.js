@@ -1,9 +1,9 @@
 var config = {};
 
 // self explanatory, your application name, descriptions, etc
-config.appName = 'The Pixel Project';
-config.appDescription = 'Pixel Wallet';
-config.appSlogan = 'Welcome to our 8 bit dreamland!';
+config.appName = 'The Chimera Project';
+config.appDescription = 'Chimera Wallet';
+config.appSlogan = 'Sudo Crypto Innovation';
 config.appId = 'pixel.rocks';
 config.appGitRepo = 'https://github.com/projectpixel1080/Project-Pixel';
 
