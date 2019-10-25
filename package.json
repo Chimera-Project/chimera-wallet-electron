@@ -37,7 +37,7 @@
     "request-promise-native": "^1.0.7"
   },
   "build": {
-    "appId": "pixel.rocks",
+    "appId": "chimera.walletshell",
     "copyright": "Copyright (c) 2019 Rixombea, Macroshock, TurtleCoin Developers, Pixel Developers, Chimera Developers",
     "directories": {
       "output": "dist",
