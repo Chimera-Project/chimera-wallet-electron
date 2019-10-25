@@ -35,9 +35,9 @@ config.remoteNodeDefaultHost = '155.138.219.219:11246';
 
 
 // remote node list update url, set to null if you don't have one
-// for TRTL:
-// raw list: https://raw.githubusercontent.com/turtlecoin/turtlecoin-nodes-json/master/turtlecoin-nodes.json
-// filtered: https://trtl.nodes.pub/api/getNodes
+// for CMRA:
+// raw list: https://github.com/Chimera-Project/chimera/blob/development/src/config/CryptoNoteConfig.h
+// filtered: https://github.com/Chimera-Project/chimera/blob/development/src/config/CryptoNoteConfig.h
 config.remoteNodeListUpdateUrl = 'null';
 
 // set to false if using raw/unfiltered node list
