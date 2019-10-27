@@ -32,7 +32,7 @@ This wallet contains the basic functions required to manage your Pixel assets:
   * Theme: Dark & Light Mode
   * [Keyboard shortcuts](docs/shortcut.md)
 
-### Download &amp; Run Pixel Wallet
+### Download &amp; Run Chimera Wallet
 
 #### Windows/Linux:
 1. Download the latest installers here: https://github.com/Chimera-Project/chimera-wallet-electron/releases
