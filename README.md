@@ -1,4 +1,4 @@
-## GUI wallet for Chimera.
+## GUI wallet for Chimera
 
 
 
