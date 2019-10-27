@@ -4,7 +4,7 @@
 
 ### Features:
 
-This wallet contains the basic functions required to manage your Pixel assets:
+This wallet contains the basic functions required to manage your Chimera assets:
 
 * Wallet creation:
   * Create new wallet.
