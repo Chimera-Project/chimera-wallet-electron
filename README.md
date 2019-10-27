@@ -1,7 +1,4 @@
-## GUI wallet for Pixel.
-
-
-NOT READY FOR COMPILING YET!!!!!!
+## GUI wallet for Chimera.
 
 
 
@@ -38,7 +35,7 @@ This wallet contains the basic functions required to manage your Pixel assets:
 ### Download &amp; Run Pixel Wallet
 
 #### Windows/Linux:
-1. Download the latest installers here: https://github.com/projectpixel1080/pixel-wallet-electron/releases/latest
+1. Download the latest installers here: https://github.com/Chimera-Project/chimera-wallet-electron/releases
 2. Run the installer (`walletshell-<version>-win-setup.exe`) and follow the installation wizard.
 3. Launch WalletShell via start menu or desktop shortcut.
 
@@ -51,14 +48,14 @@ You need to have `Node.js` and `npm` installed, go to https://nodejs.org and fin
 Once you have Node+npm installed:
 ```
 # assuming you're building it on GNU/Linux
-# first, download pixel-service binary for each platform
-# from the Pixel official repo
-# https://github.com/projectpixel080/Project-Pixel/releases
-# extract the turtle-service executable somewhere
+# first, download chimera-service binary for each platform
+# from the Chimera official repo
+# https://github.com/Chimera-Project/chimera
+# extract the chimera-service executable somewhere
 
 # clone the repo
-$ git clone https://github.com/projectpixel1080/pixel-wallet-electron
-$ cd pixel-wallet-electron
+$ git clone https://github.com/Chimera-Project/chimera-wallet-electron.git
+$ cd chimera-wallet-electron
 
 # install dependencies
 $ npm install
@@ -71,17 +68,17 @@ $ cp ./src/assets/icon.* ./build/
 
 # build GNU/Linux package
 $ mkdir -p ./bin/lin
-$ cp /path/to/linux-version-of/pixel-service ./bin/lin/
+$ cp /path/to/linux-version-of/chimera-service ./bin/lin/
 $ npm run dist-lin
 
 # build Windows package (you need to have wine 2.0+ installed)
 $ mkdir -p ./bin/win
-$ cp /path/to/win-version-of/pixel-service.exe ./bin/win/
+$ cp /path/to/win-version-of/chimera-service.exe ./bin/win/
 $ npm run dist-win
 
 # build OSX package
 $ mkdir -p ./bin/osx
-$ cp /path/to/osx-version-of/pixel-service ./bin/osx/
+$ cp /path/to/osx-version-of/chimera-service ./bin/osx/
 $ npm run dist-mac
 ```
 
