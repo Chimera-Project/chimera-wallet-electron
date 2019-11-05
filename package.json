@@ -2,7 +2,7 @@
   "name": "Chimera",
   "productName": "Chimera",
   "description": "Chimera GUI Wallet",
-  "version": "v1.1.0",
+  "version": "v2.0.0",
   "homepage": "https://chimera-project.github.io/chimera-website",
   "repository": "https://github.com/Chimera-Project",
   "main": "main.js",
