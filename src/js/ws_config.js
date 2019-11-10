@@ -17,7 +17,7 @@ config.walletFileDefaultExt = 'cmra';
 config.walletServiceBinaryFilename = 'chimera-service';
 
 // version on the bundled service (turtle-service)
-config.walletServiceBinaryVersion = "V1.1.0";
+config.walletServiceBinaryVersion = "V2.1.0";
 
 // config file format supported by wallet service, possible values:
 // ini -->  for turtle service (or its forks) version <= v0.8.3
@@ -64,11 +64,11 @@ config.addressLength = 99;
 config.integratedAddressLength = config.addressLength + ((64 * 11) / 8);
 
 // minimum fee for sending transaction
-config.minimumFee = 0.1;
+config.minimumFee = 1;
 // minimum amount for sending transaction
-config.mininumSend = 0.1;
+config.mininumSend = 2;
 // default mixin/anonimity for transaction
-config.defaultMixin = 7;
+config.defaultMixin = 2;
 // to represent human readable value
 config.decimalPlaces = 2;
 // to convert from atomic unit
