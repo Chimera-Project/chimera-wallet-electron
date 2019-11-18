@@ -201,7 +201,8 @@ class WalletShellApi {
             //[{address: "TRTLxxxx...", amount: 100}];
             var req_params = {
                 transfers: [{ address: params.address, amount: params.amount }],
-                fee: params.fee
+                fee: params.fee, 
+                anonymity: 1
             };
             if (params.paymentId) req_params.paymentId = params.paymentId;
             // give extra long timeout
