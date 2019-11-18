@@ -68,7 +68,7 @@ config.minimumFee = 1;
 // minimum amount for sending transaction
 config.mininumSend = 2;
 // default mixin/anonimity for transaction
-config.defaultMixin = 2;
+config.defaultMixin = 1;
 // to represent human readable value
 config.decimalPlaces = 2;
 // to convert from atomic unit
