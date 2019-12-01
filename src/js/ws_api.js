@@ -202,7 +202,7 @@ class WalletShellApi {
             var req_params = {
                 transfers: [{ address: params.address, amount: params.amount }],
                 fee: params.fee, 
-                anonymity: 1
+                anonymity: 0
             };
             if (params.paymentId) req_params.paymentId = params.paymentId;
             // give extra long timeout
