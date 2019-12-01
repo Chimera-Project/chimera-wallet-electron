@@ -49,6 +49,7 @@ config.remoteNodeListFallback = [
   '95.179.188.118:11246',
   '207.148.77.219:11246',
   '75.174.142.9:11246',
+  '3.225.124.85:11246',
 ];
 config.remoteNodeCacheSupported = false;
 config.remoteNodeSslSupported = false;
