@@ -24,7 +24,7 @@ config.walletServiceBinaryVersion = "V3.0.1";
 // json --> for turtle service (or its forks) version >= v0.8.4
 config.walletServiceConfigFormat = "json";
 
-// default port number for your wallet service (e.g. pixel-service)
+// default port number for your wallet service (e.g. chimera-service)
 config.walletServiceRpcPort = 8070;
 
 // block explorer url, the [[TX_HASH]] will be substituted w/ actual transaction hash
